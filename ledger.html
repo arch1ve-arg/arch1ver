@@ -1,0 +1,9 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>the ledger</title><style>body{background:#0b0d0c;color:#9fd8a8;font-family:"Courier New",monospace;max-width:720px;margin:60px auto;padding:0 20px;line-height:1.6}h1{color:#d6f5da;letter-spacing:2px}a{color:#7fc4ff}.dim{color:#4a5e4d}input,button{background:#111;color:#9fd8a8;border:1px solid #2d4a33;padding:8px;font-family:inherit}.mail{background:#f4f4f4;color:#222;font-family:Arial,sans-serif;padding:20px;border-radius:6px}.mail a{color:#1a5fd0}</style></head><body>
+<h1>THE LEDGER</h1>
+<p>Locked. I never could remember strong passwords, so I picked something everyone uses. I only kept its fingerprint:</p>
+<p><code>MD5: d5c0607301ad5d5c1528962a83992ac8</code></p>
+<p>The password is also the name of the next room. Enter it to walk through.</p>
+<input id="p" placeholder="password"> <button onclick="go()">open</button>
+<p id="m" class="dim"></p>
+<script>function go(){var v=document.getElementById('p').value.trim().toLowerCase().replace(/[^a-z0-9]/g,'');if(v)location.href=v+'/';}</script>
+</body></html>

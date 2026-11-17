@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /signal-7/
+# note to self: the archive is not for search engines
